@@ -1,0 +1,3 @@
+#!/bin/sh
+
+doas ifconfig iwn0 nwid SpectrumSetup-3D wpakey manyplace937 && doas ifconfig iwn0 join SpectrumSetup-3D wpakey manyplace937 && doas dhclient iwn0 
