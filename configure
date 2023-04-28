@@ -1,0 +1,3 @@
+#!/bin/sh
+
+doas fw_update -p openBSD-firmware && exec ./wifi 
