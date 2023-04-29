@@ -1,0 +1,1 @@
+doas ifconfig iwn0 join enter-your-wifi-name-here wpakey enter-your-wifi-password-here
