@@ -1,0 +1,3 @@
+#!/bin/sh
+
+b=$(apm -l) ; echo "BATT: $b"

@@ -1,3 +1,5 @@
+# OLD
+
 *script to install firmware for intell based wifi cards
 
 
@@ -7,3 +9,14 @@
 
 
 *if you are on a laptop run the screen script to keep your screen from timing out. (note you will have to run all of these scripts on startup."
+
+
+
+
+# NEW
+
+install the firmware with fw_update then 
+
+visit https://www.c0ffee.net/blog/openbsd-on-a-laptop#x11 to enable wifi & the rest 
+
+

@@ -1,0 +1,4 @@
+#!/bin/sh
+
+
+w=$(curl -sf 'https://wttr.in/Twinsburg,Ohio?format=%C,%t&lang=en') ; echo "WE: $w"
