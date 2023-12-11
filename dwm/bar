@@ -1,0 +1,24 @@
+#!/bin/sh
+
+kver() {
+	uname -sr
+}
+
+
+batt() {
+	b=$(apm -l) ; echo "BATT: $b"
+	sleep 1
+}
+
+
+
+vol() {
+	sndioctl | grep -i output.level
+	sleep 0.1
+}
+
+
+while true; do
+	xsetroot -name "$(batt) | $(vol) | $(kver)"
+        	
+done & 
